@@ -7,6 +7,8 @@ class Shoe
   def initialize(brand)
     @brand = brand
     BRANDS << brand
+    counter = 0
+    if BRANDS
   end
 
   def cobble
