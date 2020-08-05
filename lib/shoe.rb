@@ -7,7 +7,7 @@ class Shoe
   def initialize(brand)
     @brand = brand
     BRANDS << brand
-    BRANDS.each {|brand| if brand 
+    BRANDS.uniq
   end
 end
 
