@@ -8,7 +8,7 @@ class Shoe
     @brand = brand
     BRANDS << brand
     counter = 0
-    BRANDS.each {|brand|
+    BRANDS.each {|brand| if brand 
   end
 end
 
