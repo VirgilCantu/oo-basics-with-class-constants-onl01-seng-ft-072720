@@ -8,7 +8,7 @@ class Shoe
     @brand = brand
     BRANDS << brand
     BRANDS.uniq()
-    binding.pey
+    binding.pry
   end
 
 
