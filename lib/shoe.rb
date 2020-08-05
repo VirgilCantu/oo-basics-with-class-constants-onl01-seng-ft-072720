@@ -7,7 +7,6 @@ class Shoe
   def initialize(brand)
     @brand = brand
     BRANDS << brand
-    counter = 0
     BRANDS.each {|brand| if brand 
   end
 end
