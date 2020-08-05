@@ -8,8 +8,9 @@ class Shoe
     @brand = brand
     BRANDS << brand
     counter = 0
-    if BRANDS
+    BRANDS.each {|brand|
   end
+end
 
   def cobble
     self.condition = "new"
